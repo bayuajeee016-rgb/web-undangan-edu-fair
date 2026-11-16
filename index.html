@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Edu Fair & Career Day 2026</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts & FontAwesome Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="locked">
+
+    <!-- COVER PEMBUKA (Full Screen Overlay) -->
+    <div id="coverOverlay" class="cover-overlay">
+        <div class="cover-content">
+            <span class="cover-badge">OFFICIAL INVITATION</span>
+            <h1>Edu Fair &<br>Career Day 2026</h1>
+            <p class="cover-theme">"Bridging Talent with Future Opportunities"</p>
+            
+            <div class="guest-card-cover">
+                <p class="kepada">Kepada Yth. Bapak/Ibu/Saudara/i:</p>
+                <h2 id="coverNama">Tamu Kehormatan</h2>
+                <p id="coverInstansi" class="instansi">Instansi Mitra / Universitas / Alumni</p>
+                <span id="coverKategori" class="kategori-pill">VIP Guest</span>
+            </div>
+
+            <button id="btnBukaUndangan" class="btn-open">
+                <i class="fas fa-envelope-open-text"></i> Buka Undangan
+            </button>
+        </div>
+    </div>
+
+    <!-- KONTEN UTAMA (ONE-PAGE SCROLL) -->
+    <main id="mainContent" class="main-wrapper">
+        
+        <!-- Navigasi Cepat Melayang di Bawah (Mobile-Friendly) -->
+        <nav class="bottom-nav">
+            <a href="#home"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="#jadwal"><i class="fas fa-calendar-alt"></i><span>Acara</span></a>
+            <a href="#benefit"><i class="fas fa-star"></i><span>Benefit</span></a>
+            <a href="#rsvp"><i class="fas fa-check-circle"></i><span>RSVP</span></a>
+        </nav>
+
+        <!-- Section 1: Hero & Countdown -->
+        <section id="home" class="section hero-banner">
+            <div class="hero-inner">
+                <span class="pill-light">SMK/SMA Unggulan Nusantara</span>
+                <h1>Edu Fair & Career Day 2026</h1>
+                <p class="hero-desc">Mempertemukan generasi muda berbakat dengan perguruan tinggi terbaik dan perusahaan industri terkemuka.</p>
+                
+                <!-- Countdown Timer -->
+                <div class="countdown-box">
+                    <div class="time-unit"><span id="days">00</span><small>Hari</small></div>
+                    <div class="time-unit"><span id="hours">00</span><small>Jam</small></div>
+                    <div class="time-unit"><span id="minutes">00</span><small>Menit</small></div>
+                    <div class="time-unit"><span id="seconds">00</span><small>Detik</small></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Sambutan & Detail Waktu/Lokasi -->
+        <section id="jadwal" class="section container">
+            <div class="section-header">
+                <h2>Waktu & Lokasi Acara</h2>
+                <p>Kehadiran Anda sangat berarti bagi masa depan siswa-siswi kami.</p>
+            </div>
+
+            <div class="info-cards">
+                <div class="card-item">
+                    <i class="fas fa-calendar-day icon-box"></i>
+                    <h3>Hari & Tanggal</h3>
+                    <p>Sabtu, 19 Desember 2026</p>
+                </div>
+                <div class="card-item">
+                    <i class="fas fa-clock icon-box"></i>
+                    <h3>Waktu Pelaksanaan</h3>
+                    <p>08.00 WIB – 15.30 WIB</p>
+                </div>
+            </div>
+
+            <div class="location-card">
+                <h3><i class="fas fa-map-marker-alt"></i> Aula Utama & Convention Hall</h3>
+                <p>Jl. Pendidikan Raya No. 45, Tangerang, Banten</p>
+                <div class="map-frame">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.25123456789!2d106.827153!3d-6.175392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMTAnMzEuNCJTIDEwNsKwNDknMzcuOCJF!5e0!3m2!1sid!2sid!4v1600000000000!5m2!1sid!2sid" width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+
+            <!-- Rundown Acara -->
+            <div class="rundown-box">
+                <h3><i class="fas fa-list-ul"></i> Rundown Acara</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <span class="time">08.00 - 08.30</span>
+                        <div class="desc"><strong>Registrasi & Welcome Drink</strong><br>Penyambutan tamu VIP, perwakilan kampus, dan perusahaan.</div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="time">08.30 - 09.30</span>
+                        <div class="desc"><strong>Opening Ceremony & Keynote</strong><br>Sambutan Kepala Sekolah & Pembukaan Resmi Edu Fair 2026.</div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="time">09.30 - 14.30</span>
+                        <div class="desc"><strong>Pameran Booth & Career Talkshow</strong><br>Sesi konsultasi pendidikan, rekrutmen magang, dan sharing alumni.</div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="time">14.30 - 15.30</span>
+                        <div class="desc"><strong>Penyerahan Plakat & Penutupan</strong><br>Sesi foto bersama dan pemberian apresiasi kepada mitra.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Daftar Benefit Booth (Sesuai Soal) -->
+        <section id="benefit" class="section bg-soft">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Fasilitas & Benefit Booth</h2>
+                    <p>Dukungan penuh yang kami sediakan untuk setiap mitra dan institusi.</p>
+                </div>
+
+                <div class="benefit-grid">
+                    <div class="benefit-card">
+                        <i class="fas fa-store"></i>
+                        <h4>Booth Eksklusif 3x3m</h4>
+                        <p>Dilengkapi meja, 2 kursi, listrik, dan papan nama instansi.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <i class="fas fa-bullhorn"></i>
+                        <h4>Sesi Presentasi Panggung</h4>
+                        <p>Slot waktu 15 menit untuk mempromosikan program unggulan.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <i class="fas fa-utensils"></i>
+                        <h4>Konsumsi & VIP Lounge</h4>
+                        <p>Snack pagi, makan siang, serta akses ruang istirahat khusus mitra.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <i class="fas fa-award"></i>
+                        <h4>E-Sertifikat & Plakat</h4>
+                        <p>Sertifikat resmi kerja sama industri/kampus dan plakat penghargaan.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: RSVP Form Interaktif -->
+        <section id="rsvp" class="section container">
+            <div class="rsvp-box">
+                <h2>Konfirmasi Kehadiran (RSVP)</h2>
+                <p>Silakan lengkapi form di bawah ini untuk konfirmasi kehadiran instansi Anda.</p>
+                
+                <form id="rsvpForm" class="rsvp-form">
+                    <div class="form-group">
+                        <label>Nama Lengkap</label>
+                        <input type="text" id="inputNama" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Asal Instansi / Perusahaan</label>
+                        <input type="text" id="inputInstansi" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Status Kehadiran</label>
+                        <select id="inputStatus">
+                            <option value="Hadir (Membuka Booth)">Hadir (Membuka Booth)</option>
+                            <option value="Hadir (Tamu Undangan / Pembicara)">Hadir (Tamu Undangan / Pembicara)</option>
+                            <option value="Berhalangan Hadir">Berhalangan Hadir</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn-submit">
+                        <i class="fab fa-whatsapp"></i> Kirim Konfirmasi via WhatsApp
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2026 Panitia Edu Fair & Career Day • Dibuat oleh Tim RPL</p>
+        </footer>
+    </main>
+
+    <!-- SCRIPT INTERAKTIF -->
+    <script>
+        // 1. Ambil Parameter URL (?to=...&instansi=...&kategori=...)
+        const urlParams = new URLSearchParams(window.location.search);
+        const nama = urlParams.get('to') || 'Bapak/Ibu Perwakilan';
+        const instansi = urlParams.get('instansi') || 'Instansi Mitra';
+        const kategori = urlParams.get('kategori') || 'Tamu Undangan';
+
+        // Tampilkan ke Cover & Otomatis isi ke Form RSVP
+        document.getElementById('coverNama').textContent = nama;
+        document.getElementById('coverInstansi').textContent = instansi;
+        document.getElementById('coverKategori').textContent = kategori;
+
+        document.getElementById('inputNama').value = nama;
+        document.getElementById('inputInstansi').value = instansi;
+
+        // 2. Efek Animasi Buka Cover Undangan
+        const btnBuka = document.getElementById('btnBukaUndangan');
+        const coverOverlay = document.getElementById('coverOverlay');
+
+        btnBuka.addEventListener('click', function() {
+            coverOverlay.classList.add('opened');
+            document.body.classList.remove('locked');
+        });
+
+        // 3. Countdown Timer Menuju 19 Desember 2026
+        const eventDate = new Date("Dec 19, 2026 08:00:00").getTime();
+        setInterval(function() {
+            const now = new Date().getTime();
+            const distance = eventDate - now;
+
+            if (distance > 0) {
+                document.getElementById("days").innerText = Math.floor(distance / (1000 * 60 * 60 * 24));
+                document.getElementById("hours").innerText = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                document.getElementById("minutes").innerText = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                document.getElementById("seconds").innerText = Math.floor((distance % (1000 * 60)) / 1000);
+            }
+        }, 1000);
+
+        // 4. Kirim Form RSVP ke WhatsApp Panitia
+        document.getElementById('rsvpForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const fNama = document.getElementById('inputNama').value;
+            const fInstansi = document.getElementById('inputInstansi').value;
+            const fStatus = document.getElementById('inputStatus').value;
+
+            const pesan = `Halo Panitia Edu Fair 2026,\n\nSaya ingin mengonfirmasi kehadiran:\n• *Nama:* ${fNama}\n• *Instansi:* ${fInstansi}\n• *Kategori:* ${kategori}\n• *Status:* ${fStatus}\n\nTerima kasih.`;
+            
+            // Ganti nomor di bawah dengan nomor WA panitia/kamu
+            window.open(`https://wa.me/6287837850992?text=${encodeURIComponent(pesan)}`, '_blank');
+        });
+    </script>
+</body>
+</html>
